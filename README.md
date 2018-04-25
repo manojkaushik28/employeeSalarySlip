@@ -5,7 +5,7 @@
 node task.js fName lName AnualSalary SuperRate
 ```
 ```
-node task.js Manoj Kaushik 120000 10 2018-10-10
+node task.js Manoj Kaushik 120000 10
 ```
 ## Output Will be
-Manoj Kaushik gross-income: 10000,income-tax: 2669, net-income: 7331, super-amount: 10800
+Manoj Kaushik gross-income: 10000,income-tax: 2669, net-income: 7331, super-amount: 1000
