@@ -15,7 +15,7 @@ function calculateMontlySalary(){
         if(index==6) paymentStartDate = val;
     });
     let taxAmountPerMonth =Math.round(calculatTax(anualSalary)/12);
-    let superAmountPerMonth =Math.round(anualSalary * superRate /100);
+    let superAmountPerMonth =Math.round(anualSalary * superRate /1200);
     let salaryPerMonth =Math.round(anualSalary / 12);
     let netSalary = salaryPerMonth - taxAmountPerMonth;
     console.log(empfName + ' ' + emplName + ' gross-income: '+salaryPerMonth+',income-tax: '+taxAmountPerMonth+', net-income: '+netSalary+', super-amount: '+superAmountPerMonth )
